@@ -1,2 +1,1 @@
-Build CSS:
-npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
+npx parcel src/index.html
