@@ -14,7 +14,12 @@ module.exports = {
       'warn': '#FF964F',
       'error': '#B80F0A',
       'info': '#78A2CC',
+      'grey': '#808080',
+      'light-grey': '#909090'
     },
+    container: {
+      center: true,
+    }
   },
   plugins: [],
 }
