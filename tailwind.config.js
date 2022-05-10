@@ -17,6 +17,7 @@ module.exports = {
       'grey': '#808080',
       'light-grey': '#909090',
       'white-grey': '#d1d1d1',
+      'white':'#FFFFFF'
     },
     fontFamily: {
       'header': ['Black Ops One','system-ui'],
