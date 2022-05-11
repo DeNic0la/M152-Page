@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
-      - run: npx parcel src/index.html
+      - run: npx parcel build src/index.html
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
