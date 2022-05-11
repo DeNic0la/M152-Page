@@ -1,0 +1,26 @@
+name: Parcel-Build-Deploy-Ftp
+on: [push]
+jobs:
+  ParcelBuildDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: 🚚 Get latest code
+      - uses: actions/setup-node@v3
+        name: 👷 Build
+        with:
+          node-version: 14
+      - run: npm ci
+      - run: npx parcel src/index.html
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          local-dir: ./dist/
+          exclude: |
+            **/cgi-bin**
+            **.ftpquota**
+          server: fioretti.info
+          username: M15X@fioretti.info
+          port: 21
+          password: ${{ secrets.ftp_password }}
+
