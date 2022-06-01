@@ -7,14 +7,22 @@
 </head>
 <body>
 
-<div class="p-3 m-0 w-full flex flex-row flex-wrap bg-primary shadow sticky top-0">
+<div class="p-3 m-0 w-full flex flex-row flex-wrap bg-primary shadow sticky top-0 justify-between">
     <div class="w-1/5 flex flex-row flex-wrap justify-center bg-cyan-600 content-center">
         <img class="h-10" src="./img/Logo.png" alt="Logo">
+    </div>
+    <div class="flex-row lg:hidden flex pr-5">
+        <h3 class="pl-1 text-sm flex items-start py-2 mb-2 hover:bg-light-grey hover:text-gray-700 transition duration-200 ease-in">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                 alt="GitHub Logo" class="h-5 w-5 mr-2">
+            <a class="hover:text-black transition duration-200 ease-linear"
+               href="https://github.com/DeNic0la/M152-Page">GitHub</a>
+        </h3>
     </div>
 </div>
 
 <div class="grid grid-cols-5 grid-rows-1">
-    <div class="col-span-4">
+    <div class="lg:col-span-4 sm:col-span-5">
         <div class="container w-4/5 px-4 mt-8 bg-white-grey">
 
             <div class="rounded-lg overflow-hidden mb-10">
@@ -545,7 +553,7 @@
 
     </div>
     <div class="col-span-1">
-        <div class="h-full w-full px-4 border-l bg-grey fixed">
+        <div class="sm:hidden lg:block h-full w-full px-4 border-l bg-grey fixed">
             <div class="h-3/4 flex flex-col gap-3 justify-start text-gray-500">
                 <h3 class="pl-1 text-sm flex items-start py-2 mb-2 hover:bg-light-grey hover:text-gray-700 transition duration-200 ease-in">
                     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
