@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="20" height="20"
+     viewBox="0 0 20 20" xml:space="preserve">
+<desc>SVG von Nicola</desc>
+<style>
+    .st0 {
+    fill: #FFFFFF;
+    }
+
+    .st1 {
+    fill: #0FBA70;
+    }
+    .st2 {
+    fill: #FFB6C1;
+    }
+    .st3 {
+    fill: #00FFFF;
+    }
+    .st4 {
+    fill: #FF0000;
+    }
+</style>
+<animateMotion xlink:href="#orb1" dur="10.2s" begin="0s" repeatCount="indefinite">
+    <mpath xlink:href="#motionPath"/>
+</animateMotion>
+    <animateMotion xlink:href="#orb2" dur="8.3s" begin="0s" repeatCount="indefinite">
+    <mpath xlink:href="#motionPath"/>
+</animateMotion>
+    <animateMotion xlink:href="#orb3" dur="6.3s" begin="0s" repeatCount="indefinite">
+    <mpath xlink:href="#motionPath"/>
+</animateMotion>
+    <animateMotion xlink:href="#orb4" dur="4.4s" begin="0s" repeatCount="indefinite">
+    <mpath xlink:href="#motionPath"/>
+</animateMotion>
+<g>
+    <path id="motionPath" style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dashoffset: 0; fill-opacity: 0;  opacity: 1;"
+      vector-effect="non-scaling-stroke" d="M 3 1 L 5 1 V 6 H 7 V 8 H 3 V 1 Z"/>
+</g>
+<g>
+    <circle id="orb1" class="st1" r="1"/>
+    <circle id="orb2" class="st2" r="1"/>
+    <circle id="orb3" class="st3" r="1"/>
+    <circle id="orb4" class="st4" r="1"/>
+</g>
+</svg>
