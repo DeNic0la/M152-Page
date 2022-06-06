@@ -21,3 +21,16 @@ audio {
     width: 200px;
     height: 25px;
 }
+
+#spinner {
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(3600deg);
+    }
+}
