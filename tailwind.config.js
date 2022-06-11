@@ -16,6 +16,7 @@ module.exports = {
         'warn': '#FF964F',
         'error': '#B80F0A',
         'info': '#78A2CC',
+        trey: colors.trueGray,
       },
     },
     fontFamily: {
