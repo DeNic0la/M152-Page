@@ -16,10 +16,6 @@ module.exports = {
         'warn': '#FF964F',
         'error': '#B80F0A',
         'info': '#78A2CC',
-        'grey': '#808080',
-        'light-grey': '#909090',
-        'white-grey': '#d1d1d1',
-        'white':'#FFFFFF',
       },
     },
     fontFamily: {
