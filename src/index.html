@@ -203,10 +203,9 @@
 
             <div class="text-center">
                 <h3 class="text-xl py-3 font-header">Scroll Animation</h3>
-                Dies ist eine Scroll animation
-                <div class="flex justify-center z-10">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Yellow_Fidget_Spinner.png"
-                         id="spinner" alt="Fidget-Spinner">
+                Dies ist eine Scroll animation. Das Bild ist von Wikipedia.
+                <div class="flex justify-center z-10 w-100">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Yellow_Fidget_Spinner.png" class="inline" id="spinner" alt="Fidget-Spinner">
                 </div>
             </div>
 
@@ -222,6 +221,16 @@
                 verwalten, muss der Benutzer informiert werden und dies Akzeptieren. Die Ablehnung muss genauso stark
                 präsentiert werden, wie die Akzeptierung. Wird die Datenverarbeitung nicht als "angemessen" von der
                 DSGVO angesehen, muss der Benutzer speziell informiert werden.
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-xl py-3 font-header">Canvas</h3>
+                Das ist ein HTML 5 Canvas:
+                <div class="flex justify-center">
+                    <canvas id="myCanvas" width="200" height="100">
+                    </canvas>
+                </div>
+                Diese Animation Zählt eine Zahl nach oben und bewegt diese zugleich über den Bildschirm
             </div>
 
             <div class="rounded-lg overflow-hidden mb-10">
@@ -402,6 +411,8 @@
                                 <!-- card body -->
                                 <div class="p-2 bg-white flex justify-center items-center flex-col border-b border-gray-200">
                                     <div class="w-full flex justify-center items-center flex-col">
+
+
                                         <svg xmlns="http://www.w3.org/2000/svg"
                                              style="background-color: rgb(255, 255, 255);"
                                              xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
@@ -541,6 +552,48 @@
                         Die Wireframes wurden von Laurin Lötscher über Teams abgegeben.
                     </div>
                 </div>
+            </div>
+
+            <div class="p-8 sm:p-9 md:p-7 xl:p-9 items-center">
+                <h3 class="text-xl py-3 font-header">Audio</h3>
+                <ul>
+                    <li>
+                        <div class="rounded-lg overflow-hidden mb-10 items-center">
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <h3 class="text-l py-3 font-header">
+                                    WAV
+                                </h3>
+                                <audio controls autoplay >
+                                    <source src="./sound/extremely-painful-sound.wav" type="audio/wav">
+                                </audio>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rounded-lg overflow-hidden mb-10">
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <h3 class="text-xl py-3 font-header">
+                                    FLAC
+                                </h3>
+                                <audio controls autoplay >
+                                    <source src="./sound/really-agressive-fast-asmr.ogg" type="audio/ogg">
+                                </audio>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rounded-lg overflow-hidden mb-10">
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <h3 class="text-xl py-3 font-header">
+                                    OGG
+                                </h3>
+                                <audio controls autoplay >
+                                    <source src="./sound/thomas-the-tank-engine-errape.mp3" type="audio/mpeg">
+                                </audio>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
